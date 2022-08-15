@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Portal</title>
+    <meta name="description" content="Travel Portal">
+    <meta property="og:title" content="Travel Portal">
+    <meta property="og:description" content="Travel Portal">
+    <meta property="og:url" content="https://rolling-scopes-school.github.io/vovkahorror-JSFEPRESCHOOL2022Q2/travel/">
+    <meta property="og:image" content="fav/apple-touch-icon.png">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+    <link rel="manifest" href="fav/site.webmanifest">
+    <link rel="mask-icon" href="fav/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="fav/favicon.ico">
+    <meta name="msapplication-TileColor" content="#f2785c">
+    <meta name="msapplication-config" content="fav/browserconfig.xml">
+    <meta name="theme-color" content="#f2785c">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Magra:wght@400;700&family=Red+Hat+Text:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header__name"><a href="."><img src="img/header-logo.svg" alt=""></a> Travel Portal
+            </div>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li><a class="header__link" href="#steps">How It Works</a></li>
+                    <li><a class="header__link" href="#preview">Plan Your Trip</a></li>
+                    <li><a class="header__link" href="#destinations">Destinations</a></li>
+                    <li><a class="header__link" href="#stories">Travel Stories</a></li>
+                </ul>
+            </nav>
+            <button class="header__login login button">Login</button>
+        </header>
+        <header class="header-mobile"><a href="."><img class="header-mobile__logo-img" src="img/header-logo.svg"
+                    alt=""></a><img class="header-mobile__burger-img" id="burger" src="img/header-burger.svg" alt="">
+        </header>
+        <main class="main">
+            <nav class="burger-menu">
+                <img class="burger-menu__cross" id="burgerCross" src="img/burger-menu-cross.svg" alt="">
+                <ul class="burger-menu__list">
+                    <li class="burger-menu__item"><a class="burger-menu__link" href="#steps">How It Works</a></li>
+                    <li class="burger-menu__item"><a class="burger-menu__link" href="#preview">Plan Your Trip</a></li>
+                    <li class="burger-menu__item"><a class="burger-menu__link" href="#destinations">Destinations</a>
+                    </li>
+                    <li class="burger-menu__item"><a class="burger-menu__link" href="#stories">Travel Stories</a></li>
+                    <li class="burger-menu__item"><a class="burger-menu__link login" href="#">Account</a></li>
+                    <li class="burger-menu__item"><a class="burger-menu__link" href="#networks">Social Media</a></li>
+                </ul>
+            </nav>
+            <div class="blackout-burger"></div>
+            <div class="pop-up">
+                <h3 class="pop-up__heading">Log in to your account</h3>
+                <div class="pop-up__login pop-up__not-registered">
+                    <button class="pop-up__login-facebook pop-up__button"><img src="img/pop-up-facebook.svg"
+                            alt=""><span>Sign In with
+                            Facebook</span></button>
+                    <button class="pop-up__login-google pop-up__button"><img src="img/pop-up-google.svg"
+                            alt=""><span>Sign In with
+                            Google</span></button>
+                    <div class="pop-up__login-text">
+                        <hr class="pop-up__line"><span class="pop-up__login-innertext">or</span>
+                        <hr class="pop-up__line">
+                    </div>
+                </div>
+                <form class="pop-up__form" action="#">
+                    <label for="email-field">
+                        <span class="pop-up__form-heading">E-mail</span>
+                    </label>
+                    <input class="pop-up__form-input" type="email" name="email-field" id="email-field">
+                    <label for="password-field">
+                        <span class="pop-up__form-heading pop-up__form-password">Password</span>
+                    </label>
+                    <input class="pop-up__form-input" type="password" name="password-field" id="password-field">
+                    <button class="pop-up__form-button pop-up__button" type="submit">Sign In</button>
+                    <div class="pop-up__form-forgot pop-up__not-registered">Forgot Your Password?</div>
+                </form>
+                <hr class="pop-up__line">
+                <div class="pop-up__offer"><span class="pop-up__offer-question">Don’t have an account?</span> <span
+                        class="pop-up__offer-link">Register</span></div>
+            </div>
+            <div class="blackout-pop-up"></div>
+            <section class="preview">
+                <h1 class="preview__heading" id="preview">Explore the beauty of the World</h1>
+                <p class="preview__text">Recieve personalized recommendations for countries, hotels, activities and
+                    more</p>
+                <form class="preview__form" action="#">
+                    <input class="preview__input" type="search" placeholder="What would you like to do?">
+                    <button class="preview__submit button" type="submit">Start Planning</button>
+                </form>
+            </section>
+            <section class="steps">
+                <h2 class="section__heading" id="steps">3 STEPS TO THE PERFECT TRIP</h2>
+                <div class="steps__list">
+                    <div class="steps__list-wrapper steps__list-wrapper1">
+                        <div class="steps__list-item steps__list-item1">
+                            <img class="steps__list-image steps__list-image1" src="img/steps-image1.svg" alt="step 1">
+                            <p class="steps__list-text steps__list-text1">Tell us what you want to do</p>
+                        </div>
+                    </div>
+                    <div class="steps__list-wrapper steps__list-wrapper2">
+                        <div class="steps__list-item steps__list-item2">
+                            <img class="steps__list-image steps__list-image2" src="img/steps-image2.svg" alt="step 2">
+                            <p class="steps__list-text steps__list-text2">Share us preferable dates</p>
+                        </div>
+                    </div>
+                    <div class="steps__list-wrapper steps__list-wrapper3">
+                        <div class="steps__list-item steps__list-item3">
+                            <img class="steps__list-image steps__list-image3" src="img/steps-image3.svg" alt="step 3">
+                            <p class="steps__list-text steps__list-text3">We will give you recommendations</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="destinations">
+                <h2 class="section__heading" id="destinations">POPULAR DESTINATIONS</h2>
+                <div class="destinations__list-wrapper">
+                    <div class="destinations__list">
+                        <div class="destinations__item destinations__item-spain">
+                            <h3 class="destinations__item-text">SPAIN</h3>
+                        </div>
+                        <div class="destinations__item destinations__item-japan">
+                            <h3 class="destinations__item-text">JAPAN</h3>
+                        </div>
+                        <div class="destinations__item destinations__item-usa">
+                            <h3 class="destinations__item-text">USA</h3>
+                        </div>
+                    </div>
+                    <div class="destinations__arrows"><img class="destinations__arrows-image"
+                            src="img/destinations-arrow-left.svg" alt=""><img class="destinations__arrows-image"
+                            src="img/destinations-arrow-right.svg" alt=""></div>
+                </div>
+                <div class="destinations__dots">
+                    <div class="destinations__dot"></div>
+                    <div class="destinations__dot destinations__dot-active"></div>
+                    <div class="destinations__dot"></div>
+                </div>
+                <button class="destinations__button button"><svg class="destinations__button-arrow" viewBox="0 0 36 23"
+                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M0.5 11.5C0.5 11.1685 0.631696 10.8505 0.866116 10.6161C1.10054 10.3817 1.41848 10.25 1.75 10.25H31.2325L23.365 2.38499C23.1303 2.15028 22.9984 1.83193 22.9984 1.49999C22.9984 1.16805 23.1303 0.849708 23.365 0.614992C23.5997 0.380275 23.9181 0.248413 24.25 0.248413C24.5819 0.248413 24.9003 0.380275 25.135 0.614992L35.135 10.615C35.2514 10.7311 35.3438 10.869 35.4068 11.0209C35.4698 11.1728 35.5022 11.3356 35.5022 11.5C35.5022 11.6644 35.4698 11.8272 35.4068 11.9791C35.3438 12.1309 35.2514 12.2689 35.135 12.385L25.135 22.385C24.9003 22.6197 24.5819 22.7516 24.25 22.7516C23.9181 22.7516 23.5997 22.6197 23.365 22.385C23.1303 22.1503 22.9984 21.8319 22.9984 21.5C22.9984 21.1681 23.1303 20.8497 23.365 20.615L31.2325 12.75H1.75C1.41848 12.75 1.10054 12.6183 0.866116 12.3839C0.631696 12.1495 0.5 11.8315 0.5 11.5Z" />
+                    </svg>
+                    Find More</button>
+            </section>
+            <section class="stories">
+                <h2 class="section__heading" id="stories">TRAVEL STORIES</h2>
+                <div class="stories__list">
+                    <div class="stories__item">
+                        <div class="stories__item-image stories__item-image1"></div>
+                        <div class="stories__item-text">
+                            <h3 class="stories__item-text-heading">10 Photos of Attractive Thailand</h3>
+                            <p class="stories__item-text-main">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt
+                                ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                                in
+                                voluptate velit esse cillum dolore eu fugiat nulla<span
+                                    class="stories__item-text-mobile-none"> pariatur. Excepteur sint occaecat
+                                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                                    laborum</span>.Lorem
+                                ipsum dolor sit a<span class="stories__item-text-mobile-none">met, consectetur
+                                    adipiscing elit</span>...<br><a class="stories__item-text-more" href="">Read
+                                    More</a></p>
+                        </div>
+                    </div>
+                    <div class="stories__item">
+                        <div class="stories__item-image stories__item-image2"></div>
+                        <div class="stories__item-text">
+                            <h3 class="stories__item-text-heading">Canyonlands National Park, Utah</h3>
+                            <p class="stories__item-text-main">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt
+                                ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                                in
+                                voluptate velit esse cillum dolore eu fugiat nulla<span
+                                    class="stories__item-text-mobile-none"> pariatur. Excepteur sint occaecat
+                                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                                    laborum</span>.Lorem
+                                ipsum dolor sit a<span class="stories__item-text-mobile-none">met, consectetur
+                                    adipiscing elit</span>...<br><a class="stories__item-text-more" href="">Read
+                                    More</a></p>
+                        </div>
+                    </div>
+                    <div class="stories__item">
+                        <div class="stories__item-image stories__item-image3"></div>
+                        <div class="stories__item-text">
+                            <h3 class="stories__item-text-heading">I left my heart in the Mountains!</h3>
+                            <p class="stories__item-text-main">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt
+                                ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                                in
+                                voluptate velit esse cillum dolore eu fugiat nulla<span
+                                    class="stories__item-text-mobile-none"> pariatur. Excepteur sint occaecat
+                                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                                    laborum</span>.Lorem
+                                ipsum dolor sit a<span class="stories__item-text-mobile-none">met, consectetur
+                                    adipiscing elit</span>...<br><a class="stories__item-text-more" href="">Read
+                                    More</a></p>
+                        </div>
+                    </div>
+                    <div class="stories__item">
+                        <div class="stories__item-image stories__item-image4"></div>
+                        <div class="stories__item-text">
+                            <h3 class="stories__item-text-heading">The Longest journey in my life!</h3>
+                            <p class="stories__item-text-main">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt
+                                ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                                in
+                                voluptate velit esse cillum dolore eu fugiat nulla<span
+                                    class="stories__item-text-mobile-none"> pariatur. Excepteur sint occaecat
+                                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                                    laborum</span>.Lorem
+                                ipsum dolor sit a<span class="stories__item-text-mobile-none">met, consectetur
+                                    adipiscing elit</span>...<br><a class="stories__item-text-more" href="">Read
+                                    More</a></p>
+                        </div>
+                    </div>
+                    <button class="stories__button button"><svg class="stories__button-arrow" viewBox="0 0 36 23"
+                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M0.5 11.5C0.5 11.1685 0.631696 10.8505 0.866116 10.6161C1.10054 10.3817 1.41848 10.25 1.75 10.25H31.2325L23.365 2.38499C23.1303 2.15028 22.9984 1.83193 22.9984 1.49999C22.9984 1.16805 23.1303 0.849708 23.365 0.614992C23.5997 0.380275 23.9181 0.248413 24.25 0.248413C24.5819 0.248413 24.9003 0.380275 25.135 0.614992L35.135 10.615C35.2514 10.7311 35.3438 10.869 35.4068 11.0209C35.4698 11.1728 35.5022 11.3356 35.5022 11.5C35.5022 11.6644 35.4698 11.8272 35.4068 11.9791C35.3438 12.1309 35.2514 12.2689 35.135 12.385L25.135 22.385C24.9003 22.6197 24.5819 22.7516 24.25 22.7516C23.9181 22.7516 23.5997 22.6197 23.365 22.385C23.1303 22.1503 22.9984 21.8319 22.9984 21.5C22.9984 21.1681 23.1303 20.8497 23.365 20.615L31.2325 12.75H1.75C1.41848 12.75 1.10054 12.6183 0.866116 12.3839C0.631696 12.1495 0.5 11.8315 0.5 11.5Z" />
+                        </svg>See More</button>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <ul class="footer__student">
+                <li><a href="https://rs.school/js-stage0/" target="_blank"><img class="footer__student-image"
+                            src="img/footer-rs.svg" alt="RS School. Stage 0"></a></li>
+                <li><a href="https://github.com/vovkahorror" target="_blank"><img class=" footer__student-image"
+                            src="img/footer-github.svg" alt="Github"></a></li>
+            </ul>
+            <div class="footer__rights">All Rights Reserved © Travel Portal</div>
+            <ul class="footer__networks" id="networks">
+                <li><a href="https://www.instagram.com/rsschool_news/" target="_blank"><img
+                            class=" footer__networks-image" src="img/footer-instagram.svg" alt="Instagram"></a></li>
+                <li><a href="https://www.youtube.com/c/RollingScopesSchool" target="_blank"><img class="
+                    footer__networks-image" src="img/footer-youtube.svg" alt="Youtube"></a></li>
+                <li><a href="https://twitter.com/rollingscopes" target="_blank"><img class=" footer__networks-image"
+                            src="img/footer-twitter.svg" alt="Twitter"></a></li>
+            </ul>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
